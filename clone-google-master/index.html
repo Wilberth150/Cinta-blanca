@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<!-- Esta web será un clon de la página
+principal del buscador Google para aprender
+las bases y estructura de una web con HTML y CSS -->
+
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Clone Google</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <header class="top-bar">
+    <nav>
+      <a>Gmail</a>
+      <a>Imágenes</a>
+      <a><img src="./apps.svg" id="apps"></a>
+      <a><img src="./perrito.png" title="perrito bebe" id="profile"></a>
+    </nav>
+  </header>
+
+  <main>
+
+    <section class="logo">
+      <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="">
+    </section>
+
+    <section class="search">
+      <!-- <input id="srchtxt" type="text">
+
+
+
+      <input type="number">
+      <input type="email">
+      <input type="password">
+      <input type="color">
+      <input type="range">
+
+      <div class="search-buttons">
+        <button id="srchbtn" href="" target="_blank">Buscar con Google</button>
+        <button id="srchbtn" href="" target="_blank">Me siento con suerte</button>
+      </div> -->
+
+        <form action="https://google.com/search" method="get">
+          <input type="text" name="q" value="">
+          <div class="search-buttons">
+            <button type="submit">Buscar con Google</button>
+            <button type="submit">Me siento con suerte</button>
+          </div>
+        </form>
+
+    </section>
+
+
+  </main>
+
+  <footer>
+
+      <hr />
+
+      <nav class="country">
+        <a>México</a>
+      </nav>
+
+      <hr />
+
+      <nav class="footer-left">
+        <a href="">Publicidad</a>
+        <a href="">Negocios</a>
+        <a href="">Acerca de</a>
+        <a href="">Cómo funciona la Búsqueda</a>
+      </nav>
+
+      <nav class="footer-right">
+        <a href="">Privacidad</a>
+        <a href="">Condiciones</a>
+        <a href="">Preferencias</a>
+      </nav>
+
+  </footer>
+
+
+</body>
+
+</html>
